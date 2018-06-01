@@ -1,3 +1,5 @@
+// Прошу прощения, сразу не прочитал по поводу веток, создаю новый коммит
+
 const userPhoto = NaN;
 const userName = 'Egor';
 const userSecondName = 'Gudkov';
