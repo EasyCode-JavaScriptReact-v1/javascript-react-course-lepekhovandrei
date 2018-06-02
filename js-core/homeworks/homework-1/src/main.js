@@ -1,3 +1,5 @@
+// Прошу прощения, сразу не прочитал по поводу веток, создаю новый коммит
+
 const userPhoto = NaN;
 const userName = 'Egor';
 const userSecondName = 'Gudkov';
@@ -36,6 +38,10 @@ const contact = [
     userAnotherInfo
 ]
 
+homework_2
 console.log(contact);
 
 
+
+console.log(contact);
+master
