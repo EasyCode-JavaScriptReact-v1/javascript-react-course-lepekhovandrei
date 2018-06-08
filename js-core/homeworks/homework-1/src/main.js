@@ -38,4 +38,10 @@ const contact = [
     userAnotherInfo
 ]
 
+homework_2
 console.log(contact);
+
+
+
+console.log(contact);
+master
