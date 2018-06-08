@@ -54,13 +54,15 @@ console.log(homeSentence);
 
 // --- Решение
 
-let myObj = {
-    name: 'Andrei'.toLocaleUpperCase(),
-    growth: ' 179.5 '.trim(),
-    replaceName: 'Andrei'.replace('i', 'y'),
-    firstNameWord: 'Andrei'[0],
-    lenghtName: 'Andrei'.length
-};
+let myObj = {}
+    myObj.name = 'Andrei',
+    myObj.surName = 'Lepekhov',
+    myObj.family = [
+      'Mother',
+      'Father',
+      'Sister',
+      'brother'
+    ]
 
 console.log(myObj);
 
@@ -70,10 +72,15 @@ console.log(myObj);
  */
 
 let frameworks = [4.7, 'Angular', '6Angular', 'React/Redux'];
-let x = 
-        'google \
-        released ' + 'new version\
-        ' + frameworks[1] + Math.floor(frameworks[0]) + '\
-        But real speed is ' + `${frameworks[frameworks.length - 1]}`;
+// let x = 
+//         'google \
+//         released ' + 'new version\
+//         ' + frameworks[1] + Math.floor(frameworks[0]) + '\
+//         But real speed is ' + `${frameworks[frameworks.length - 1]}`;
 
-  console.log(x)
+let version = Math.floor(frameworks[0]);
+
+let x = `google released new version ${frameworks[1]} ${version} But real speed is ${frameworks[3]}`;
+
+
+console.log(x)
