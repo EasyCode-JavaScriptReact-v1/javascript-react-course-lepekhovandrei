@@ -63,6 +63,7 @@ let myObj = {}
       'Sister',
       'brother'
     ]
+    myObj['Age'] = '24'
 
 console.log(myObj);
 
