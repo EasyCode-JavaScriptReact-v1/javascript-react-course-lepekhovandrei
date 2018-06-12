@@ -37,3 +37,29 @@ console.log(checkTypeFunction('0123456789'));
 
 
 
+/*
+ 1. Напишите функцию которая принимает 2 числа
+ и возвращает массив содержащий числа между первым числом и вторым числом;
+ */
+
+function numbersBetween(a, b) {
+
+    const myArray = [];
+
+     for(i = a; i <= b; i ++) {
+       
+        myArray.push(i)
+        
+    }
+
+    console.log(myArray);
+}
+
+
+
+numbersBetween(3, 5);
+// 3, 4, 5
+
+// numbersBetween(10, 12);
+// 10, 11, 12
+
