@@ -58,8 +58,37 @@ function numbersBetween(a, b) {
 
 
 numbersBetween(3, 5);
-// 3, 4, 5
 
-// numbersBetween(10, 12);
-// 10, 11, 12
+numbersBetween(10, 12);
 
+
+/*
+ 3. Напишите функцию которая принимает 1 аргумент - массив
+ И возвращает новый массив содержащий типы значений переменных
+ */
+
+let arr = [1, null, undefined, 'str', {}, [], function() {}];
+
+
+ function newArrayFun (arr) {
+
+     const newArray = [];
+
+    for(let i = 0; i < arr.length; i++){
+        
+        // console.log(i) = 0 ?
+
+        newArray.push(typeof arr[i]);
+
+   
+        return newArray;
+    }
+    
+    
+
+     
+
+ }
+
+
+  console.log(newArrayFun(arr));
