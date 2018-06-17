@@ -63,6 +63,8 @@ let myObj = {}
       'Sister',
       'brother'
     ]
+
+    myObj['Age'] = '24'
     myObj['Age'] = '31',
     myObj['Tel'] = '+380677861877'
 
