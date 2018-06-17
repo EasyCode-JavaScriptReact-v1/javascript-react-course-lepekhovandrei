@@ -63,9 +63,8 @@ let myObj = {}
       'Sister',
       'brother'
     ]
- homework_03
+
     myObj['Age'] = '24'
-=======
     myObj['Age'] = '31',
     myObj['Tel'] = '+380677861877'
 master
