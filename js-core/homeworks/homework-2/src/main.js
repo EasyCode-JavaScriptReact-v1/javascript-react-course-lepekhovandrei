@@ -67,7 +67,6 @@ let myObj = {}
     myObj['Age'] = '24'
     myObj['Age'] = '31',
     myObj['Tel'] = '+380677861877'
-master
 
 console.log(myObj);
 
