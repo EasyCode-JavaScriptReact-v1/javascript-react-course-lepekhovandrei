@@ -61,8 +61,7 @@ arr[2] = 'zdrastvuite';
 
 function addToArray(arrParam, newElem) {
   // без "естественных" способов добавления
-  //console.log(arrParam.length); = 3
-  arrParam[3] = newElem; 
+  arrParam.push(newElem); 
 }
 
 addToArray(arr, 34);
@@ -70,6 +69,25 @@ addToArray(arr, 55);
 console.log(arr);
 
 //-------------------------------------------------------
+
+
+let arr = [];
+arr[0] = 'privet';
+arr[1] = 'poka';
+arr[2] = 'zdrastvuite';
+
+function addToArray(arrParam, newElem) {
+  // без "естественных" способов добавления
+
+  let arrayNew  = arrParam.length;
+
+  arrParam[arrayNew] = newElem; 
+}
+
+addToArray(arr, 34);
+addToArray(arr, 55);
+console.log(arr);
+
 
 
 /*
