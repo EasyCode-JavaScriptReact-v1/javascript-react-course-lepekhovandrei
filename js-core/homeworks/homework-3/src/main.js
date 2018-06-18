@@ -61,7 +61,12 @@ arr[2] = 'zdrastvuite';
 
 function addToArray(arrParam, newElem) {
   // без "естественных" способов добавления
+
   arrParam.push(newElem); 
+
+  //console.log(arrParam.length); = 3
+  arrParam[arrParam.length] = newElem; // Вроде так тогда получается
+
 }
 
 addToArray(arr, 34);
