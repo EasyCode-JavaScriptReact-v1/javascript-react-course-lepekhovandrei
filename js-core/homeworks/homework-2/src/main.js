@@ -68,6 +68,10 @@ let myObj = {}
     myObj['Age'] = '31',
     myObj['Tel'] = '+380677861877'
 
+    myObj['Age'] = '31',
+    myObj['Tel'] = '+380677861877'
+
+
 console.log(myObj);
 
 /*
